@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #b12525;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.HEADER {
+  align-self: flex-end;
+  padding: 1rem;
+}
+
+.STOPWATCH {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#stopwatch {
+    display: grid;
+    gap: 7rem;
+}
+
+#resetBtn {
+  background: none;
+  color: inherit;
+  font-size: 3.5rem;
+}
+
+#stopwatch p{
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+
+button {
+  display: block;  
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+#startStopBtn {
+  padding: 85px 75px;
+  border-radius: 10rem;
+  background-color: #fbdb68;
+  font-size: 1rem;
+  box-shadow: 25px 20px 5px #3333337d;
+}
+
+
+
+.FOOTER {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
