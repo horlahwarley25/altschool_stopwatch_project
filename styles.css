@@ -1,5 +1,7 @@
+/* Import Roboto font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reset default margin, padding, and set box-sizing and font */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* Body styles: background, text color, layout, and font size */
 body {
   background-color: #b12525;
   color: whitesmoke;
@@ -16,16 +19,24 @@ body {
   font-size: 2rem;
 }
 
+/* Anchor tag styles */
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
 }
 
+/* Anchor hover effect */
+a:hover {
+  color: rgba(245, 245, 245, 0.595);
+}
+
+/* Header alignment and padding */
 .HEADER {
   align-self: flex-end;
   padding: 1rem;
 }
 
+/* Stopwatch container: center content vertically and horizontally */
 .STOPWATCH {
   flex: 1;
   display: flex;
@@ -35,23 +46,26 @@ a {
   gap: 20px;
 }
 
+/* Stopwatch display grid and spacing */
 #stopwatch {
     display: grid;
     gap: 7rem;
 }
 
+/* Reset button styles */
 #resetBtn {
   background: none;
   color: inherit;
   font-size: 3.5rem;
 }
 
+/* Stopwatch time display styles */
 #stopwatch p{
     text-align: center;
     font-size: 3.5rem;
-    
 }
 
+/* General button styles */
 button {
   display: block;  
   background: none;
@@ -60,6 +74,7 @@ button {
   color: inherit;
 }
 
+/* Start/Stop button specific styles */
 #startStopBtn {
   padding: 85px 75px;
   border-radius: 10rem;
@@ -68,8 +83,7 @@ button {
   box-shadow: 25px 20px 5px #3333337d;
 }
 
-
-
+/* Footer styles */
 .FOOTER {
   color: #fff;
   text-align: center;
